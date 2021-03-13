@@ -41,7 +41,7 @@ public class MainMenu extends AppCompatActivity {
         {
             choices = choices + "Komkommer" + "\n";
             price = price + 3;
-//            textfield.setTxt(choices)
+//       //     textfield.setTxt(choices)
         }
         else if (view == findViewById(R.id.pompoenButton))
         {
