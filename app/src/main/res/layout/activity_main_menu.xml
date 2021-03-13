@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menu"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textColor="#B31818"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Komkommer /st"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/komkommerButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:text="Add"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Pompoen /st"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/pompoenButton"
+            android:layout_weight="1"
+            android:text="Add"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Kouseband /bos"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/kousebandButton"
+            android:layout_weight="1"
+            android:text="Add"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Antroewa /hoop"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/antroewaButton"
+            android:layout_weight="1"
+            android:text="Add"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Boulanger /st"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/boulangerButton"
+            android:layout_weight="1"
+            android:text="Add"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Bitawieri /bos"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/bitawieriButton"
+            android:layout_weight="1"
+            android:text="Add"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Kool /pnd"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+
+            android:id="@+id/koolButton"
+            android:layout_weight="1"
+            android:text="Add"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Klaroen /bos"
+            android:textSize="25sp"
+            android:textColor="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/klaroenButton"
+            android:layout_weight="1"
+            android:text="Add"
+            android:backgroundTint="#685A5A"
+            android:onClick="add_to_list"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="50dp">
+
+        <Button
+            android:onClick="placeOrder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Place order"
+            android:backgroundTint="#685A5A"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <!--</androidx.recyclerview.widget.RecyclerView>
+-->
+</LinearLayout>

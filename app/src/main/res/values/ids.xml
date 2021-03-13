@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="klaroenButton" type="id" />
+    <item name="koolButton" type="id" />
+    <item name="bitawieriButton" type="id" />
+    <item name="boulangerButton" type="id" />
+    <item name="antroewaButton" type="id" />
+    <item name="kousebandButton" type="id" />
+    <item name="pompoenButton" type="id" />
+    <item name="komkommerButton" type="id" />
+</resources>
