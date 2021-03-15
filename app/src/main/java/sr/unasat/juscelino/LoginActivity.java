@@ -21,18 +21,18 @@ public class LoginActivity extends AppCompatActivity {
     Button mButtonLogin;
     TextView mTextViewRegister;
     DatabaseHelper db;
-    ViewGroup progressView;
-    protected boolean isProgressShowing = false;
+    /*ViewGroup progressView;
+    protected boolean isProgressShowing = false;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Dialog dialog = new Dialog(this,android.R.style.Theme_Translucent_NoTitleBar);
+       /* Dialog dialog = new Dialog(this,android.R.style.Theme_Translucent_NoTitleBar);*/
        /* View v = this.getLayoutInflater().inflate(R.layout.progress_bar,null);
         dialog.setContentView(v);*/
-        dialog.show();
+       /* dialog.show();*/
 
         db = new DatabaseHelper(this);
         mTextUsername = (EditText)findViewById(R.id.edittext_username);
